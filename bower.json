@@ -1,0 +1,22 @@
+{
+  "name": "toolbar-test",
+  "version": "0.0.0",
+  "authors": [
+    "brendanreen <brendanreen@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5",
+    "bootstrap": "~3.3.4",
+    "core-toolbar": "Polymer/core-toolbar#^0.5",
+    "core-dropdown-menu": "Polymer/core-dropdown-menu#^0.5"
+  }
+}

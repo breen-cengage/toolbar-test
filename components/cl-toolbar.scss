@@ -1,0 +1,40 @@
+cl-username-dropdown /deep/ {
+
+	x-trigger {
+		cursor: pointer;
+	}
+
+	.open-below {
+		top: 38px;
+		background-color: #CFD8DC;
+		width: 100px;
+		padding: 0 8px;
+	}
+}
+
+:host /deep/ {
+
+	.username-dropdown {
+		position: absolute;
+		top: 20px;
+		right: 110px;
+	}
+
+	.help-toggle {
+		position: absolute;
+		top: 20px;
+		right: 80px;
+	}
+
+	.app-dock-toggle {
+		$height: 64px;
+		position: absolute;
+		top: 0;
+		right: -8px;
+		background-image: url('AppToggle.png');
+		background-size: $height $height;
+		height: $height;
+		width: $height;
+		border: 0;
+	}
+}
